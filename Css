@@ -45,13 +45,15 @@ h3{
 }
 .value{
   margin-left:35px;
+
 }
 .value a{
 
   display:block;
   width:30%;
   height:50px;
-  transition:2s;
+   transition:3s;
+
 }
 
 
@@ -73,6 +75,7 @@ h3{
   position:relative;
   bottom:229px;
   background-color:beige;
+
 }
 .margin{
   margin-top:50px;
@@ -105,15 +108,16 @@ a{
 
 
 #date{
-  margin-left:10%;
-  display:inline-block;
-  width:250px;
-  position:relative;
+   margin-left:10%;
+   display:inline-block;
+   width:250px;
+   position:relative;
    left:650px;
 
-  bottom:228px;
-    background-color:grey;
-    padding:50px;
+   bottom:228px;
+   background-color:grey;
+   padding:50px;
+
 
 }
 
@@ -124,12 +128,28 @@ a{
     transform-origin:0.00;
   }
 }
+
 @media(max-width:400px){
+  .value{
+    margin-left:-2px;
+  }
+  .title{
+    margin-left:-2px;
+  }
   .value-in{
-    margin-left:60px;
+    margin-left:25px;
   }
 }
-
+@media(max-width:400px){
+  #date{
+    margin-left:15px;
+    width:50px;
+    position:relative;
+    left:155px;
+    bottom:229px;
+    padding:20px;
+  }
+  }
 
   
 
